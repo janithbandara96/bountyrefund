@@ -402,7 +402,8 @@ GEM
       therubyracer (~> 0.12.1)
     json (2.3.0)
     jwt (2.2.1)
-    kramdown (2.1.0)
+    kramdown (2.3.0)
+      rexml
     launchy (2.5.0)
       addressable (~> 2.7)
     letter_opener (1.7.0)
@@ -533,6 +534,7 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     retriable (3.1.2)
+    rexml (3.2.4)
     rspec-core (3.9.1)
       rspec-support (~> 3.9.1)
     rspec-expectations (3.9.1)
