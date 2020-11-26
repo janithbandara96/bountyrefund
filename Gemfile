@@ -65,6 +65,8 @@ gem 'angular-rails-templates'
 
 gem 'secure_headers'
 gem 'rest-client'
+gem 'rack-cors'
+gem 'rack-attack'
 
 group :development do
   gem 'zeus'
