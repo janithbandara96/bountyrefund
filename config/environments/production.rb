@@ -1,10 +1,4 @@
 Api::Application.configure do
-  config.middleware.insert_before 0, Rack::Cors do
-    allow do
-      origins 'www.bountysource.com', 'salt.bountysource.com'
-      resource '*', headers: :any, methods: [:get, :post, :options, :patch, :delete]
-    end
-  end
   # Code is not reloaded between requests
   config.cache_classes = true
 
@@ -48,7 +42,7 @@ Api::Application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
   # Use a different cache store in production
-  # config.cache_store = :mem_cache_store
+  config.cache_store = :memory_store, { size: 64.megabytes }
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
   # config.assets.precompile += %w( search.js )
