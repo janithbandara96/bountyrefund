@@ -163,7 +163,7 @@ GEM
     elasticsearch-transport (6.0.3)
       faraday
       multi_json
-    em-http-request (1.1.5)
+    em-http-request (1.1.6)
       addressable (>= 2.3.4)
       cookiejar (!= 0.3.1)
       em-socksify (>= 0.3)
@@ -467,7 +467,7 @@ GEM
     pry (0.13.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    public_suffix (4.0.4)
+    public_suffix (4.0.6)
     puma (4.3.3)
       nio4r (~> 2.0)
     rabl (0.14.2)
