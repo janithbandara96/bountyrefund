@@ -352,7 +352,7 @@ GEM
     foreman (0.87.1)
     formatador (0.2.5)
     gherkin (5.1.0)
-    git (1.6.0)
+    git (1.11.0)
       rchardet (~> 1.8)
     github-markdown (0.6.9)
     globalid (0.4.2)
